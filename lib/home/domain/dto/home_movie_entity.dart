@@ -1,4 +1,4 @@
-class HomeMovieDto {
+class HomeMovieEntity {
   final int id;
   final String title;
   final String posterUrl;
@@ -6,7 +6,7 @@ class HomeMovieDto {
   final String releaseDate;
   final double voteAverage;
 
-  HomeMovieDto(
+  HomeMovieEntity(
       {required this.id,
       required this.title,
       required this.posterUrl,
