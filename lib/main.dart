@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:movie_db_flutter_app/core/di/di.dart';
 
-void main() {
+void main() async {
+  await init();
   runApp(const MainApp());
 }
 
@@ -12,7 +14,7 @@ class MainApp extends StatelessWidget {
     return const MaterialApp(
       home: Scaffold(
         body: Center(
-          child: Text('Hello World!'),
+          child: Text('Hello ibra!'),
         ),
       ),
     );
