@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
 
+  flutter_dotenv: ^5.1.0
+
   # Bloc para manejar el estado
   flutter_bloc: ^8.1.5
 
